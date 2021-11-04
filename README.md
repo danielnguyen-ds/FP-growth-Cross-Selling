@@ -1,4 +1,4 @@
-# Cross Selling-Market Basket Analysis - Association Rules Mining
+# Cross Selling - Market Basket Analysis - Association Rules Mining
 [Market Basket Analysis](https://smartbridge.com/market-basket-analysis-101/) is one of the key techniques used by large retailers to uncover associations between items, which is very important for [Cross selling](https://www.oberlo.com/ecommerce-wiki/cross-selling) - a practice of selling additional products to an existing customer.
 
 [Association Rules Mining](https://www.geeksforgeeks.org/association-rule/) is widely used to analyze retail basket or transaction data, and are intended to identify strong rules discovered in transaction data using measures of interestingness, based on the concept of strong rules.
