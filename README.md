@@ -10,7 +10,7 @@ In this notebook, we will perform Association Rules Mining using [FP-Growth algo
 <img src="result_table.png" width="500"/>
 </p>
 
-The pattern that the rule states in the equation is easy to understand—people who bought `yogurt` and `tropical fruit` also tend to buy `root vegetables`. Let’s try to understand the metrics: 
+The first row in table shows that people who bought `yogurt` and `tropical fruit` also tend to buy `root vegetables`. Let’s try to understand the metrics: 
 - `Support` of the rule is 228, which means, all the items together appear in 228 transactions in the dataset. 
 - `Confidence` of the rule is 46%, which means that 46% of the time the antecedent items occurred we also had the consequent in the transaction (i.e. 46% of times, customers who bought `yogurt` and `tropical fruit` also tend to buy `root vegetables`).
 - `Lift` means that the probability of finding `root vegetables`
