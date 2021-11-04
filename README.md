@@ -1,7 +1,9 @@
 # Cross Selling
-[Cross selling](https://www.oberlo.com/ecommerce-wiki/cross-selling) the practice of selling additional products to an existing customer by analyzing the customer’s shopping patterns trends. Cross-selling is famously exemplified by Amazon’s “Customers Who Bought This Item Also Bought” feature. The idea of cross selling can be extended to any organization, irrespective of whether it is an online or offline retailer or whether it is selling its products to the end users of whole sellers.
+[Market Basket Analysis](https://smartbridge.com/market-basket-analysis-101/) is one of the key techniques used by large retailers to uncover associations between items, which is very important for [Cross selling](https://www.oberlo.com/ecommerce-wiki/cross-selling) - a practice of selling additional products to an existing customer.
 
-In this notebook, we explore [Association Rules Mining](https://www.geeksforgeeks.org/association-rule/), using [FP-Growth algorithm](https://www.softwaretestinghelp.com/fp-growth-algorithm-data-mining/) implemented in the [orange3-associate package](https://pypi.org/project/Orange3-Associate/), for a [market basket analysis](https://smartbridge.com/market-basket-analysis-101/), which identified which combination of products are often purchased by customers. Then, we will apply the concepts to an `retail transactions dataset`.
+[Association Rules Mining](https://www.geeksforgeeks.org/association-rule/) is widely used to analyze retail basket or transaction data, and are intended to identify strong rules discovered in transaction data using measures of interestingness, based on the concept of strong rules.
+
+In this notebook, we will perform Association Rules Mining using [FP-Growth algorithm](https://www.softwaretestinghelp.com/fp-growth-algorithm-data-mining/) implemented in the [orange3-associate package](https://pypi.org/project/Orange3-Associate/) on an `retail transactions` dataset and interpret the results.
 
 **A snapshot of the result:**
 <p align="center">
