@@ -5,7 +5,7 @@ In this notebook, we explore [association rule-mining](https://www.geeksforgeeks
 
 **A snapshot of the result:**
 <p align="center">
-<img src="resut_table.png" width="500"/>
+<img src="result_table.png" width="500"/>
 </p>
 
 The pattern that the rule states in the equation is easy to understand—people who bought yogurt, whole milk, and tropical fruit also tend to buy root vegetables. Let’s try to understand the metrics: 
